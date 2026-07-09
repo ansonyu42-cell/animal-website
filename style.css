@@ -1,0 +1,19 @@
+html, body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://m.media-amazon.com/images/I/61pcumkHLGL._AC_UF894,1000_QL80_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: navy;
+}
+
+
+
+div{
+    color:aliceblue;
+}
+
