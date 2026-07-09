@@ -1,0 +1,24 @@
+html, body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://cdn.britannica.com/05/75105-050-AE61BF35/Pride-lions.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: navy;
+}
+
+div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 106, 106, 0.5);
+    padding: 1rem;
+    margin: 0.8rem;
+    max-width: 40%;
+    overflow-wrap: break-word;
+}
