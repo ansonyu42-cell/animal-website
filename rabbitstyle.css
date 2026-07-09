@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://rabbits.world/wp-content/uploads/2022/10/Groupe-de-lapins-de-garenne.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: navy;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+img {
+    max-width: 120px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 0 0.6rem 0;
+    float: none;
+}
+
+div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: block;
+    color: white;
+    background-color: rgba(107, 201, 255, 0.55);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    max-width: 28%;
+    margin-left: 0;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* Responsive: on small screens, stack and make full-width */
+@media (max-width: 600px) {
+    img { float: none; display: block; margin: 0 auto 1rem; max-width: 60%; }
+    div { position: static; max-width: 100%; width: auto; margin: 0.8rem; }
+}
+.highlight {
+    display: inline-block;
+    background-color: rgba(107, 201, 255, 0.5);
+}
